@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto Digimon 🦖
 
-## Getting Started
+Este projeto foi desenvolvido como parte do teste do processo seletivo de estágio da GF Tech (Global Financeiro). O objetivo do teste era implementar o front-end de um design designado e estabelecer uma conexão com uma API.
 
-First, run the development server:
+<div style="text-align:center">
+  <img src="./public/gifs/gif-desktop.gif" alt="Projeto Digimon - Desktop">
+</div>
+
+## Como usar ⁉️
+Clique em **<>code**, depois **Download zip**. Extraia os arquivos e abra a pasta ou no VS Code.
+
+Então, execute o seguinte comando no terminal:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Você pode editar a página modificando o arquivo `app/page.tsx`. A página é atualizada automaticamente conforme você edita o arquivo 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Funcionalidades 🔍
 
-## Learn More
+* Visualizar uma lista de Digimons.
+* Filtrar Digimons por nível (Fresh, In Training, Rookie, Champion, Mega, Ultimate).
+* Buscar Digimons pelo nome.
 
-To learn more about Next.js, take a look at the following resources:
+## Responsividade 🤳
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Este projeto foi desenvolvido com foco na responsividade, garantindo uma experiência de usuário consistente em uma variedade de dispositivos, incluindo desktops, tablets e smartphones. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Uma característica importante da versão mobile é a transformação do filtro em um slide ao reduzir o tamanho da tela. Isso permite que os usuários naveguem facilmente entre as opções de filtro com um simples gesto de deslizar.
 
-## Deploy on Vercel
+<div style="text-align:center">
+  <img src="./public/gifs/gif-mobile.gif" alt="Projeto Digimon - Mobile">
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tecnologias usadas 👩‍💻
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* React
+
+* Next.js 14.1.0
+
+* Typescript
+
+* Tailwind
+
+* Headless UI
+
+* Swiper
+
+* Axios
